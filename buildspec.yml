@@ -1,4 +1,5 @@
 version: 0.2
+
 phases:
   install:
     runtime-versions:
@@ -14,5 +15,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - my-app-1.0-SNAPSHOT.jar
+    - target/helloworld-1.1.jar
   discard-paths: yes  
